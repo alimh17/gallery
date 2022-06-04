@@ -1,0 +1,27 @@
+@font-face {
+  font-family: BYekan;
+  src: url("./fonts/BYEKAN/Yekan.woff2");
+  src: url("./fonts/BYEKAN/Yekan.woff");
+  src: url("./fonts/BYEKAN/BYekan.ttf");
+  font-weight: 400;
+}
+
+:root {
+  --primary-color-1: #ffc8c8;
+  --primary-color-2: #ff9999;
+  --primary-color-3: #444f5a;
+  --primary-color-4: #3e4149;
+  --white-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "BYekan", sans-serif, serif;
+  direction: rtl;
+}
